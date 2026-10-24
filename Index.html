@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajesh Tech Corner | Gadget Store</title>
+  <meta name="description" content="Shop smartwatches, earbuds, neckbands and more at Rajesh Tech Corner.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #172033;
+    }
+    header {
+      background: #101c3a;
+      color: white;
+      padding: 22px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    header h2 { margin: 0; font-size: 22px; }
+    header a { color: white; text-decoration: none; }
+    .hero {
+      padding: 64px 6%;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #101c3a, #2459a9);
+    }
+    .hero h1 { font-size: clamp(30px, 5vw, 48px); margin: 0 0 14px; }
+    .hero p { line-height: 1.7; }
+    .btn {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 13px 20px;
+      background: #16a66a;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    main { padding: 36px 6%; }
+    .section-title { text-align: center; margin-bottom: 24px; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+      gap: 18px;
+    }
+    .product {
+      background: white;
+      padding: 22px 14px;
+      text-align: center;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px #15264b12;
+    }
+    .emoji { font-size: 48px; }
+    .product h3 { font-size: 17px; }
+    .product p { color: #657089; font-size: 14px; }
+    .product a {
+      display: inline-block;
+      background: #101c3a;
+      color: white;
+      text-decoration: none;
+      padding: 10px 12px;
+      border-radius: 7px;
+      font-size: 13px;
+    }
+    .trust {
+      margin-top: 32px;
+      padding: 26px;
+      background: white;
+      border-radius: 12px;
+      text-align: center;
+      line-height: 1.8;
+    }
+    footer {
+      background: #101c3a;
+      color: white;
+      padding: 26px 6%;
+      text-align: center;
+      line-height: 1.8;
+    }
+    footer a { color: #8ee8bc; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>⚡ Rajesh Tech Corner</h2>
+    <a href="#products">Our Products</a>
+  </header>
+
+  <section class="hero">
+    <h1>Upgrade Your Everyday Tech!</h1>
+    <p>Smart Gadgets. Great Value. Trusted Service.</p>
+    <p>তোমার পছন্দের গ্যাজেট খুঁজে নাও সহজেই।</p>
+    <a class="btn" href="#products">Explore Products ↓</a>
+  </section>
+
+  <main id="products">
+    <h2 class="section-title">Explore Our Gadgets</h2>
+    <div class="products">
+      <article class="product">
+        <div class="emoji">⌚</div>
+        <h3>Smart Watch</h3>
+        <p>স্মার্ট স্টাইল, প্রতিদিন</p>
+        <a href="https://wa.me/8801517859362?text=Hello%2C%20I%20want%20to%20know%20smartwatch%20prices.">দাম জানতে চ্যাট</a>
+      </article>
+      <article class="product">
+        <div class="emoji">🎧</div>
+        <h3>Earbuds</h3>
+        <p>তোমার পছন্দের সাউন্ড</p>
+        <a href="https://wa.me/8801517859362?text=Hello%2C%20I%20want%20to%20know%20earbuds%20prices.">দাম জানতে চ্যাট</a>
+      </article>
+      <article class="product">
+        <div class="emoji">🎵</div>
+        <h3>Neckband</h3>
+        <p>দৈনন্দিন ব্যবহারের সঙ্গী</p>
+        <a href="https://wa.me/8801517859362?text=Hello%2C%20I%20want%20to%20know%20neckband%20prices.">দাম জানতে চ্যাট</a>
+      </article>
+      <article class="product">
+        <div class="emoji">🔋</div>
+        <h3>Power Bank</h3>
+        <p>চলতে চলতে চার্জ</p>
+        <a href="https://wa.me/8801517859362?text=Hello%2C%20I%20want%20to%20know%20power%20bank%20prices.">দাম জানতে চ্যাট</a>
+      </article>
+      <article class="product">
+        <div class="emoji">🔌</div>
+        <h3>Charger & Cable</h3>
+        <p>চার্জিংয়ের প্রয়োজনীয় সবকিছু</p>
+        <a href="https://wa.me/8801517859362?text=Hello%2C%20I%20want%20to%20know%20charger%20and%20cable%20prices.">দাম জানতে চ্যাট</a>
+      </article>
+      <article class="product">
+        <div class="emoji">🏠</div>
+        <h3>Home Gadgets</h3>
+        <p>স্মার্ট লাইফের সহজ সমাধান</p>
+        <a href="https://wa.me/8801517859362?text=Hello%2C%20I%20want%20to%20know%20home%20gadget%20prices.">দাম জানতে চ্যাট</a>
+      </article>
+    </div>
+
+    <section class="trust">
+      <h2>Why Rajesh Tech Corner?</h2>
+      <p>✔ Quality Gadget<br>
+      ✔ Trusted Service<br>
+      ✔ Friendly Customer Support</p>
+      <a class="btn" href="https://wa.me/8801517859362">Chat With Us on WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Rajesh Tech Corner</strong><br>
+    Quality Gadget, Trusted Service<br>
+    Shewrapara, Mirpur, Dhaka<br>
+    WhatsApp: 01517859362
+  </footer>
+</body>
+</html>
